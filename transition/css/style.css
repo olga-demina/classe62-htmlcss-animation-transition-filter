@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: all 2s ease-in-out;
+}
+
+/* Active al click del mouse */
+.box:active {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+}
